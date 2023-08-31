@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="h1{.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Tugas RevoU</title>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+              <img src="logo.png" alt="Logo">
+            </div>
+            <div class="menu">
+              <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Contact">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+    <div id="Home">
+        <h1 id="editableText">Hi, Welcome to the Website</h1>
+        <h4 style="font-weight: 100;">Ini adalah website latihan pertama</h4>
+    </div>
+    <div class="image-container">
+        <img id="image" src="image1.jpg" alt="Image 1">
+      </div>
+      <button id="prevButton" class="arrow-button"><i class="fas fa-chevron-left"></i></button>
+      <button id="nextButton" class="arrow-button"><i class="fas fa-chevron-right"></i></button>
+      <script src="script.js"></script>
+    </div>
+    <section>
+        <div id="About" style="text-align: center; line-height: 1.8;">
+        <H1>About Us</H1>
+            In today's digital age, coding education has never been more important. At RevoU, we believe that learning to code is not only fun but also an essential skill that can lead to lucrative jobs and career opportunities. Our school is dedicated to providing students with a world-class coding education that equips them with the skills to be at the forefront of technology.
+
+        At RevoU, we offer a comprehensive coding curriculum that is designed to prepare students for the constantly evolving tech industry. Our innovative program focuses on hands-on, project-based learning, giving students a chance to apply their skills to real-world scenarios.
+        
+        With our experienced team of instructors, students at RevoU will receive personalized instruction and mentorship from tech leaders in the field. Our instructors bring unique insights and expertise to the classroom, providing students with real-world examples of how coding can be practically applied.
+        
+        At RevoU, we are committed to preparing our students for a career in tech. By providing students with access to our extensive industry network, we help students connect with potential employers and industry leaders. Our job placement program has an impressive track record of success and is known for helping students land their dream jobs in tech.
+        
+        We believe in flexibility and accessibility, which is why we offer both full-time and part-time courses that can be taken online from anywhere in the world. Our online classes incorporate modern technology - from video conferencing and live coding to interactive whiteboards - creating an immersive learning experience that's almost like being in a physical classroom.
+        
+        Choosing RevoU means gaining the tools to succeed in today's tech scene. Join us today, and together, let's revolutionize the world of coding.
+        </div>
+    </section>
+    </header>
+    <main>
+        <div id="Services">
+        <h2>Our Facilitation</h2>
+        <div class="image-gallery">
+            <div class="image-card">
+              <div class="circle-frame">
+                <img src="Fimage1.jpg" alt="Image 1">
+              </div>
+              <div class="caption">Professional Teacher</div>
+            </div>
+            <div class="image-card">
+              <div class="circle-frame">
+                <img src="Fimage2.jpg" alt="Image 2">
+              </div>
+              <div class="caption">Sport Field</div>
+            </div>
+            <div class="image-card">
+              <div class="circle-frame">
+                <img src="image1.jpg" alt="Image 3">
+              </div>
+              <div class="caption">Classroom</div>
+            </div>
+          </div>
+        </div>
+          <section>
+          <div id="Contact" class="form-container">
+            <div class="form-content" id="formContent">
+              <h2>Contact Form</h2>
+              <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Submit</button>
+              </form>
+            </div>
+            <div class="info-box" id="infoBox">
+              <h2>Submitted Information</h2>
+              <p><strong>Name:</strong> <span id="submittedName"></span></p>
+              <p><strong>Email:</strong> <span id="submittedEmail"></span></p>
+              <p><strong>Phone Number:</strong> <span id="submittedPhone"></span></p>
+              <p><strong>Message:</strong> <span id="submittedMessage"></span></p>
+            </div>
+          </div>
+          <script src="script.js"></script>
+        </section>
+    </main>
+</body>
+</html>
